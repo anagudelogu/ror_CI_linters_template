@@ -45,6 +45,9 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', require: false
 
+# https://github.com/heartcombo/devise
+gem 'devise', github: 'heartcombo/devise', branch: 'main'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
@@ -57,6 +60,18 @@ group :development, :test do
 
   # Rspec
   gem 'rspec-rails'
+
+  # https://github.com/thoughtbot/factory_bot/tree/master
+  gem 'factory_bot_rails'
+
+  # https://github.com/flyerhzm/bullet
+  gem 'bullet'
+
+  # https://github.com/teamcapybara/capybara
+  gem 'capybara'
+
+  # https://github.com/titusfortner/webdrivers
+  gem 'webdrivers', '~> 5.0'
 end
 
 group :development do
@@ -68,6 +83,9 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  # https://github.com/ryanb/letter_opener
+  gem 'letter_opener'
 end
 
 group :test do
