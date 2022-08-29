@@ -60,6 +60,9 @@ group :development, :test do
 
   # https://github.com/thoughtbot/factory_bot/tree/master
   gem 'factory_bot_rails'
+
+  # https://github.com/flyerhzm/bullet
+  gem 'bullet'
 end
 
 group :development do
