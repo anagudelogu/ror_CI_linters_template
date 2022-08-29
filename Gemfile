@@ -57,6 +57,9 @@ group :development, :test do
 
   # Rspec
   gem 'rspec-rails'
+
+  # https://github.com/thoughtbot/factory_bot/tree/master
+  gem 'factory_bot_rails'
 end
 
 group :development do
