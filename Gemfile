@@ -63,6 +63,12 @@ group :development, :test do
 
   # https://github.com/flyerhzm/bullet
   gem 'bullet'
+
+  # https://github.com/teamcapybara/capybara
+  gem 'capybara'
+
+  # https://github.com/titusfortner/webdrivers
+  gem 'webdrivers', '~> 5.0'
 end
 
 group :development do
